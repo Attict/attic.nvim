@@ -454,6 +454,7 @@ hl.plugins.nvim_tree = {
     NvimTreeImageFile = { fg = c.dark_purple },
     NvimTreeSymlink = colors.Purple,
     NvimTreeFolderName = colors.Blue,
+    NvimTreeWinSeparator = { fg = c.bg_d, bg = cfg.transparent and c.none or c.bg_d },
 }
 hl.plugins.telescope = {
     TelescopeBorder = colors.Red,
