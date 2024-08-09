@@ -1,7 +1,7 @@
 local options = {
   indicator = {
     style = 'icon',
-    icon = '▎'
+    icon = '▋'
   },
   separator_style = 'thick', --{'', ''},
   buffer_close_icon = '',
@@ -26,8 +26,8 @@ local options = {
   offsets = {
     {
       filetype = "NvimTree",
-      text = "File Explorer",
-      --highlight = "Directory",
+      text = "Explore",
+      highlight = "NvimTreeNormal",
       separator = true,
     }
   },
