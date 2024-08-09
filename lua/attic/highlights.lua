@@ -93,6 +93,7 @@ hl.common = {
     ToolbarButton = {fg = c.bg0, bg = c.bg_blue},
     FloatBorder = {fg = c.grey, bg = c.bg1},
     NormalFloat = {fg = c.fg, bg = c.bg1},
+    WinSeparator = {fg = c.bg3},
 }
 
 hl.syntax = {
