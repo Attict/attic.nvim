@@ -1,5 +1,8 @@
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 local lspconfig = require('lspconfig')
+local on_attach = function(client, bufnr)
+    client.server_capabilities.semanticTokensProvider = nil
+end
 
 capabilities.textDocument.completion.completionItem = {
   documentationFormat = { "markdown", "plaintext" },
