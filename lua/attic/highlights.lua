@@ -163,7 +163,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@operator"] = colors.Fg,
         ["@parameter"] = colors.Red,
         ["@parameter.reference"] = colors.Fg,
-        ["@property"] = colors.Cyan,
+        ["@property"] = colors.Red,
         ["@punctuation.delimiter"] = colors.LightGrey,
         ["@punctuation.bracket"] = colors.LightGrey,
         ["@punctuation.special"] = colors.Red,
@@ -193,9 +193,9 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@note"] = colors.Fg,
         ["@warning"] = colors.Fg,
         ["@danger"] = colors.Fg,
-        ["@type"] = colors.Purple,
+        ["@type"] = colors.Yellow,
         ["@type.builtin"] = colors.Purple,
-        ["@variable"] = {fg = c.fg, fmt = cfg.code_style.variables},
+        ["@variable"] = {fg = c.red, fmt = cfg.code_style.variables},
         ["@variable.builtin"] = {fg = c.red, fmt = cfg.code_style.variables},
     }
 else
