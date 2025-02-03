@@ -124,3 +124,4 @@ lspconfig.yamlls.setup {
     }
   }
 }
+
