@@ -12,7 +12,6 @@ local function my_on_attach(bufnr)
   vim.keymap.set('n', 's', api.node.open.horizontal, opts('Open in Horizontal Split'))
   vim.keymap.set('n', 'i', api.node.open.vertical, opts('Open in Vertical Split'))
   vim.keymap.set('n', 't', api.node.open.tab, opts('Open in New Tab'))
-
 end
 
 
@@ -55,7 +54,7 @@ require('nvim-tree').setup {
   },
   view = {
     adaptive_size = false,
-    side = "left", -- "right"
+    side = "right", -- right
     width = 40,
   },
 }

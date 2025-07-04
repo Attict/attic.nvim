@@ -1,4 +1,11 @@
 local options = {
+  custom_filter = function(buf_number)
+    local buf_name = vim.fn.bufname(buf_number)
+    if buf_name:match("NvimTree") then
+      return false
+    end
+    return true
+  end,
   indicator = {
     style = 'icon',
     icon = '▋'

@@ -9,12 +9,12 @@ local options = {
     "cssls", -- CSS
     --"omnisharp_mono", -- C#
     "dockerls", -- Docker
-    "gopls", -- GO
+    --"gopls", -- GO
     "graphql", -- GraphQL
     "groovyls", -- Groovy
     "html", -- HTML
     "jdtls", -- Java
-    "tsserver", -- JavaScript, TypeScript
+    "ts_ls", -- JavaScript, TypeScript
     "jsonls", -- JSON
     "kotlin_language_server", -- Kotlin
     "texlab", -- LaTeX

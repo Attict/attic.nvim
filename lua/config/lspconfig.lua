@@ -39,7 +39,7 @@ local servers = {
   "groovyls", -- Groovy
   "html", -- HTML
   "jdtls", -- Java
-  "tsserver", -- JavaScript, TypeScript
+  "ts_ls", -- JavaScript, TypeScript
   "jsonls", -- JSON
   "kotlin_language_server", -- Kotlin
   "texlab", -- LaTeX
@@ -86,6 +86,7 @@ require("lspconfig")["clangd"].setup {
     "clangd",
     "--background-index",
     "--suggest-missing-includes",
+    --"--offset-encoding=utf-16",
     --'--query-driver="/usr/local/opt/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-gcc"'
   },
   filetypes = {"c", "cpp", "objc", "objcpp", "metal"},

@@ -29,3 +29,7 @@ vim.keymap.set("n", "<C-s>", vim.lsp.buf.signature_help, opts)
 --vim.keymap.set("n", "gT", ":bprev<cr>", opts)
 --
 vim.api.nvim_set_keymap('n', '<space>e', '<cmd>lua vim.diagnostic.open_float()<CR>', opts)
+
+
+
+
