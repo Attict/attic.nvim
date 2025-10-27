@@ -14,6 +14,7 @@ local options = {
     "glsl",
     "go",
     "graphql",
+    "hlsl",
     "html",
     "ini",
     "java",
