@@ -113,6 +113,12 @@ return require("lazy").setup {
       require "config.luasnip"
     end,
   },
+  {
+    "lewis6991/gitsigns.nvim",
+    config = function()
+      require "config.gitsigns"
+    end,
+  },
 
 
 }
