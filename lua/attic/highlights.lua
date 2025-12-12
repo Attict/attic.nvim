@@ -200,6 +200,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@tag.attribute"] = colors.Yellow,
         ["@tag.delimiter"] = colors.Purple,
         ["@text"] = colors.Fg,
+        ["@type.qualifier"] = colors.Purple,
 
         -- Probably needs ordered properly
         ["@note"] = colors.Fg,
@@ -263,6 +264,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
             ["@lsp.type.typeParameter"] = hl.treesitter["@type"],
             ["@lsp.type.keyword"] = hl.treesitter["@keyword"],
             ["@lsp.type.namespace"] = hl.treesitter["@module"],
+            ["@lsp.type.operator"] = hl.treesitter["@keyword.operator"],
             ["@lsp.type.parameter"] = hl.treesitter["@variable.parameter"],
             ["@lsp.type.property"] = hl.treesitter["@property"],
             ["@lsp.type.variable"] = hl.treesitter["@variable"],
