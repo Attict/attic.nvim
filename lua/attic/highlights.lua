@@ -254,6 +254,14 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@text.environment.name"] = colors.Fg,
         ["@text.diff.add"] = colors.Green,
         ["@text.diff.delete"] = colors.Red,
+
+        ["cInclude"] = colors.Purple,
+        ["cStructure"] = colors.Purple,
+        ["cType"] = colors.Purple,
+        ["cppConstant"] = colors.Purple,
+        ["cppModifier"] = colors.Purple,
+        ["cppStructure"] = colors.Purple,
+        ["cppType"] = colors.Purple,
     }
     if vim.api.nvim_call_function("has", { "nvim-0.9" }) == 1 then
         hl.lsp = {
